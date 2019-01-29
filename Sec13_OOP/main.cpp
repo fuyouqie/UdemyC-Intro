@@ -11,6 +11,7 @@ void displayPlayer(Student student)
 int main()
 {
 	/*
+
 	{
 		Student stu; //calls for default constructor
 		Student alice(2313,"Alice");
