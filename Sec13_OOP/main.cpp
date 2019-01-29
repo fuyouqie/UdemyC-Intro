@@ -1,7 +1,15 @@
 #include "Student.h"
 
+using namespace std;
+
+void displayPlayer(Student student)
+{
+	cout << "Displaying player: " << student.getName() << endl;
+}
+
 int main()
 {
+	/*
 	{
 		Student stu; //calls for default constructor
 		Student alice(2313,"Alice");
@@ -11,6 +19,12 @@ int main()
 	//object created on heap
 
 	delete tom; //destructor called;
+	*/
+
+	Student empty;
+	displayPlayer(empty);// copy constructor called
+
+	Student stu{empty}; //copy constructor called again
 
 	return 0;
 }
