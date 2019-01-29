@@ -20,6 +20,7 @@ Student::Student(int id, string name)
 	cout << "Alternate constructor called" << endl;
 }
 
+//destructor
 Student::~Student()
 {
 	cout << "Student destroyed" << endl;
