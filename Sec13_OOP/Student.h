@@ -11,9 +11,10 @@ private:
 public:
 	Student(int id = 0, std::string name = "None");
 	~Student();
-
+	Student(const Student &source);
 	void sayHi();
 	void setName(std::string name);
 	bool match(int id);
+	std::string getName();
 };
 
