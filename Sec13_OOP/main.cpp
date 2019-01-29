@@ -8,16 +8,10 @@ void displayPlayer(Student student)
 	cout << "Displaying player: " << student.getName() << endl;
 }
 
-using namespace std;
-
-void displayPlayer(Student student)
-{
-	cout << "Displaying player: " << student.getName() << endl;
-}
-
 int main()
 {
 	/*
+
 	{
 		Student stu; //calls for default constructor
 		Student alice(2313,"Alice");
