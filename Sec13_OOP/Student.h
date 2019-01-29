@@ -11,6 +11,7 @@ private:
 public:
 	Student(int id = 0, std::string name = "None");
 	~Student();
+
 	void sayHi();
 	void setName(std::string name);
 	bool match(int id);
