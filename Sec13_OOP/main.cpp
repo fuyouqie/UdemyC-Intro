@@ -1,4 +1,12 @@
 #include "Student.h"
+#include <iostream>
+
+using namespace std;
+
+void displayPlayer(Student student)
+{
+	cout << "Displaying player: " << student.getName() << endl;
+}
 
 using namespace std;
 
