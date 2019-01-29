@@ -9,8 +9,7 @@ private:
 	std::string name;
 
 public:
-	Student();
-	Student(int id, std::string name);
+	Student(int id = 0, std::string name = "None");
 	~Student();
 	void sayHi();
 	void setName(std::string name);

@@ -16,12 +16,6 @@ void Student::setName(std::string name)
 	Student::name = name;
 }
 
-Student::Student()
-	:Student{0,"None"} // initialization list initialises the data before creating object
-{
-	std::cout << "Default constructor called" << std::endl;
-}
-
 Student::Student(int id, std::string name)
 	: Student::id{id}, Student::name{name}
 {
