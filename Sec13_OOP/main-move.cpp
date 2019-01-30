@@ -4,6 +4,11 @@
 
 using namespace std;
 
+void displayNumStudents()
+{
+	cout << "Number of students in total: " << Student::getNumOfStudents() << endl;
+}
+
 int main()
 {
 
@@ -12,7 +17,8 @@ int main()
 	//vec.push_back(Student{456, "Bob"});
 	//vec.push_back(Student{978, "Tom"});
 	//vec.push_back(Student{834, "Tim"});
-
+	
+	displayNumStudents();
 	const Student alice{123, "Alice"};
 
 	//setName() is not a const method
@@ -20,5 +26,6 @@ int main()
 	
 	cout << alice.getName() << endl; //OK since getName() is const
 
+	displayNumStudents();
 	return 0;
 }

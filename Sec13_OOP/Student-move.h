@@ -7,6 +7,7 @@ class Student
 private:
 	int *id;
 	std::string *name;
+	static int numOfStudents;
 
 public:
 	Student(int id = 0, std::string name = "None");
@@ -17,5 +18,6 @@ public:
 	void setName(std::string name);
 	bool match(int id);
 	std::string getName() const;
+	static int getNumOfStudents();
 };
 

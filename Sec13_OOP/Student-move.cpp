@@ -3,6 +3,8 @@
 
 using namespace std;
 
+int Student::numOfStudents = 0;
+
 void Student::sayHi()
 {
 	cout << "Hi there, I'm " << *name << endl;
@@ -21,6 +23,7 @@ Student::Student(int id, string name)
 	this->name = new string;
 	*this->name = name;
 	cout << "Alternate constructor called" << endl;
+	numOfStudents++;
 }
 
 //destructor
@@ -29,6 +32,7 @@ Student::~Student()
 	delete id;
 	delete name;
 	cout << "Student destroyed" << endl;
+	numOfStudents--;
 }
 
 //copy constructor
@@ -55,4 +59,9 @@ string Student::getName() const
 void Student::setName(string name)
 {
 	*this->name = name;
+}
+
+int Student::getNumOfStudents()
+{
+	return numOfStudents;
 }
