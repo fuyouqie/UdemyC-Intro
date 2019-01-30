@@ -10,24 +10,24 @@ void Student::sayHi()
 
 bool Student::match(int id)
 {
-	return *(Student::id) == id;
+	return *this->id == id;
 }
 
 //constructor
 Student::Student(int id, string name)
 {
-	Student::id = new int;
-	*(Student::id) = id;
-	Student::name = new string;
-	*(Student::name) = name;
+	this->id = new int;
+	*this->id = id;
+	this->name = new string;
+	*this->name = name;
 	cout << "Alternate constructor called" << endl;
 }
 
 //destructor
 Student::~Student()
 {
-	delete Student::id;
-	delete Student::name;
+	delete id;
+	delete name;
 	cout << "Student destroyed" << endl;
 }
 
@@ -54,5 +54,5 @@ string Student::getName()
 
 void Student::setName(string name)
 {
-	*(Student::name) = name;
+	*this->name = name;
 }
