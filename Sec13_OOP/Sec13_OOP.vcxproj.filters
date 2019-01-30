@@ -13,24 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\StudentCase">
+    <Filter Include="Source Files\deep copy">
       <UniqueIdentifier>{f73f93a9-94b4-4321-807c-918326547d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\copy constructor">
+      <UniqueIdentifier>{5dd8e764-8e92-4626-8ea4-5a1075b01f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shallow copy">
+      <UniqueIdentifier>{617c2ba6-6f0f-4bba-9c00-358e5e2df1e2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Student.cpp">
-      <Filter>Source Files\StudentCase</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files\StudentCase</Filter>
-    </ClCompile>
     <ClCompile Include="classDeclaration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main-deep.cpp">
+      <Filter>Source Files\deep copy</Filter>
+    </ClCompile>
+    <ClCompile Include="Student-deep.cpp">
+      <Filter>Source Files\deep copy</Filter>
+    </ClCompile>
+    <ClCompile Include="main-cp.cpp">
+      <Filter>Source Files\copy constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Student-cp.cpp">
+      <Filter>Source Files\copy constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="main-shallow.cpp">
+      <Filter>Source Files\shallow copy</Filter>
+    </ClCompile>
+    <ClCompile Include="Student-shallow.cpp">
+      <Filter>Source Files\shallow copy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
-      <Filter>Source Files\StudentCase</Filter>
+    <ClInclude Include="Student-deep.h">
+      <Filter>Source Files\deep copy</Filter>
+    </ClInclude>
+    <ClInclude Include="Student-cp.h">
+      <Filter>Source Files\copy constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Student-shallow.h">
+      <Filter>Source Files\shallow copy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
