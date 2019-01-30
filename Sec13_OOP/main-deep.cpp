@@ -10,7 +10,8 @@ void displayPlayer(Student student)
 
 int main()
 {
-	Student alice(232, "Alice");
+	Student alice(123,"Alice");
+
 	displayPlayer(alice);
 
 	return 0;

@@ -15,8 +15,9 @@ bool Student::match(int id)
 
 
 Student::Student(int id, string name)
-	: Student::id{id}, Student::name{name}
+	:Student::id{id}, Student::name{name}
 {
+
 	cout << "Alternate constructor called" << endl;
 }
 
