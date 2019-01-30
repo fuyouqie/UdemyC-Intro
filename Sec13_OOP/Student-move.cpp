@@ -47,7 +47,7 @@ Student::Student(Student &&source) noexcept //&& r-value reference
 	cout << "Move constructor called" << endl;
 }
 
-string Student::getName()
+string Student::getName() const
 {
 	return *name;
 }

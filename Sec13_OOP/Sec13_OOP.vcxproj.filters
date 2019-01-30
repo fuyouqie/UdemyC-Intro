@@ -22,7 +22,7 @@
     <Filter Include="Source Files\shallow copy">
       <UniqueIdentifier>{617c2ba6-6f0f-4bba-9c00-358e5e2df1e2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\move constructor">
+    <Filter Include="Source Files\%40move constructor">
       <UniqueIdentifier>{a6c1ea92-0988-49d1-b86e-249ae7808c0f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -49,10 +49,10 @@
       <Filter>Source Files\shallow copy</Filter>
     </ClCompile>
     <ClCompile Include="main-move.cpp">
-      <Filter>Source Files\move constructor</Filter>
+      <Filter>Source Files\%40move constructor</Filter>
     </ClCompile>
     <ClCompile Include="Student-move.cpp">
-      <Filter>Source Files\move constructor</Filter>
+      <Filter>Source Files\%40move constructor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,7 +66,7 @@
       <Filter>Source Files\shallow copy</Filter>
     </ClInclude>
     <ClInclude Include="Student-move.h">
-      <Filter>Source Files\move constructor</Filter>
+      <Filter>Source Files\%40move constructor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

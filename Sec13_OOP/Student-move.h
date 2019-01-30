@@ -16,6 +16,6 @@ public:
 	void sayHi();
 	void setName(std::string name);
 	bool match(int id);
-	std::string getName();
+	std::string getName() const;
 };
 
