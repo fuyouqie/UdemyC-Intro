@@ -25,6 +25,9 @@
     <Filter Include="Source Files\%40move constructor">
       <UniqueIdentifier>{a6c1ea92-0988-49d1-b86e-249ae7808c0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sec13_Chal_Movie">
+      <UniqueIdentifier>{e8d74327-8f8e-4574-8862-4b3c598f2b70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="classDeclaration.cpp">
@@ -54,6 +57,15 @@
     <ClCompile Include="Student-move.cpp">
       <Filter>Source Files\%40move constructor</Filter>
     </ClCompile>
+    <ClCompile Include="Movie.cpp">
+      <Filter>Source Files\Sec13_Chal_Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="Movies.cpp">
+      <Filter>Source Files\Sec13_Chal_Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Sec13_Chal_Movie</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Student-deep.h">
@@ -67,6 +79,12 @@
     </ClInclude>
     <ClInclude Include="Student-move.h">
       <Filter>Source Files\%40move constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Movie.h">
+      <Filter>Source Files\Sec13_Chal_Movie</Filter>
+    </ClInclude>
+    <ClInclude Include="Movies.h">
+      <Filter>Source Files\Sec13_Chal_Movie</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
