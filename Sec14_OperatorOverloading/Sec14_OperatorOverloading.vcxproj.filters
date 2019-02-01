@@ -16,8 +16,14 @@
     <Filter Include="Source Files\root">
       <UniqueIdentifier>{fe19561c-b0b7-4e6b-8e28-4335a69eb5a6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\assignment copy">
+    <Filter Include="Source Files\assignment move">
       <UniqueIdentifier>{ac10677d-ceca-423c-a02e-fa61c03a9518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assignment copy">
+      <UniqueIdentifier>{27b75cfe-af33-4925-b523-83a26a995ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plus">
+      <UniqueIdentifier>{90ce8047-6c7b-4799-b5db-f54d0b32bef1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,19 +33,37 @@
     <ClCompile Include="MyString.cpp">
       <Filter>Source Files\root</Filter>
     </ClCompile>
+    <ClCompile Include="MyString-main-mv.cpp">
+      <Filter>Source Files\assignment move</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-mv.cpp">
+      <Filter>Source Files\assignment move</Filter>
+    </ClCompile>
     <ClCompile Include="MyString-cp.cpp">
       <Filter>Source Files\assignment copy</Filter>
     </ClCompile>
     <ClCompile Include="MyString-main-cp.cpp">
       <Filter>Source Files\assignment copy</Filter>
     </ClCompile>
+    <ClCompile Include="MyString-main-plus.cpp">
+      <Filter>Source Files\plus</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-plus.cpp">
+      <Filter>Source Files\plus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h">
       <Filter>Source Files\root</Filter>
     </ClInclude>
+    <ClInclude Include="MyString-mv.h">
+      <Filter>Source Files\assignment move</Filter>
+    </ClInclude>
     <ClInclude Include="MyString-cp.h">
       <Filter>Source Files\assignment copy</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString-plus.h">
+      <Filter>Source Files\plus</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

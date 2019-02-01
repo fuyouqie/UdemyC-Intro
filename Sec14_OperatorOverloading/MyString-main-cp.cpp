@@ -46,4 +46,5 @@ int main()
 		s.display();                                     // Changed
 															// Changed
 															// Changed
+	return 0;
 }
