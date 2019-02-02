@@ -1,6 +1,6 @@
 #include <cstring>
 #include <iostream>
-#include "MyString-plus.h"
+#include "MyString-global.h"
 
 using namespace std;
 
@@ -75,4 +75,30 @@ int MyString::get_length() const
 const char *MyString::get_str() const
 {
 	return str;
+}
+
+
+bool operator==(const MyString &lhs, const MyString &rhs)
+{
+	return strcmp(lhs.str, rhs.str) == 0;
+}
+
+MyString operator-(const MyString &source)
+{
+	char *buff = new char[strlen(source.str) + 1];
+	for (size_t i = 0; i < strlen(buff); i++)
+		buff[i] = tolower(source.str[i]);
+	MyString temp(buff);
+	delete[] buff;
+	return temp;
+}
+
+MyString operator+(const MyString &lhs, const MyString &rhs)
+{
+	char *buff = new char[strlen(lhs.str) + strlen(rhs.str) + 1];
+	strcpy(buff, lhs.str);
+	strcat(buff, rhs.str);
+	MyString temp(buff);
+	delete[] buff;
+	return temp;
 }

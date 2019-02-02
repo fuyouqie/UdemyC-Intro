@@ -22,8 +22,11 @@
     <Filter Include="Source Files\assignment copy">
       <UniqueIdentifier>{27b75cfe-af33-4925-b523-83a26a995ff0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\plus">
+    <Filter Include="Source Files\member function">
       <UniqueIdentifier>{90ce8047-6c7b-4799-b5db-f54d0b32bef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global function">
+      <UniqueIdentifier>{59f6ec6b-583f-4279-9c4b-b171cbea7126}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -45,11 +48,17 @@
     <ClCompile Include="MyString-main-cp.cpp">
       <Filter>Source Files\assignment copy</Filter>
     </ClCompile>
-    <ClCompile Include="MyString-main-plus.cpp">
-      <Filter>Source Files\plus</Filter>
+    <ClCompile Include="MyString-mem.cpp">
+      <Filter>Source Files\member function</Filter>
     </ClCompile>
-    <ClCompile Include="MyString-plus.cpp">
-      <Filter>Source Files\plus</Filter>
+    <ClCompile Include="MyString-main-mem.cpp">
+      <Filter>Source Files\member function</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-global.cpp">
+      <Filter>Source Files\global function</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-main-global.cpp">
+      <Filter>Source Files\global function</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,8 +71,11 @@
     <ClInclude Include="MyString-cp.h">
       <Filter>Source Files\assignment copy</Filter>
     </ClInclude>
-    <ClInclude Include="MyString-plus.h">
-      <Filter>Source Files\plus</Filter>
+    <ClInclude Include="MyString-mem.h">
+      <Filter>Source Files\member function</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString-global.h">
+      <Filter>Source Files\global function</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

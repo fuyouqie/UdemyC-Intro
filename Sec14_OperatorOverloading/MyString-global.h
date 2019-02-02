@@ -2,6 +2,10 @@
 
 class MyString
 {
+	friend bool operator==(const MyString &lhs, const MyString &rhs);
+	friend MyString operator-(const MyString &source);
+	friend MyString operator+(const MyString &lhs, const MyString &rhs);
+
 private:
 	char *str;
 
