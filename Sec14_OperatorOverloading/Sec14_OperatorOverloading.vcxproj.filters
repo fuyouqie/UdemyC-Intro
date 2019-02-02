@@ -28,6 +28,9 @@
     <Filter Include="Source Files\global function">
       <UniqueIdentifier>{59f6ec6b-583f-4279-9c4b-b171cbea7126}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\insertion&amp;extraction">
+      <UniqueIdentifier>{fdca8f04-9368-44e6-9f40-ee6204bbaeed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyString-main.cpp">
@@ -60,6 +63,12 @@
     <ClCompile Include="MyString-main-global.cpp">
       <Filter>Source Files\global function</Filter>
     </ClCompile>
+    <ClCompile Include="MyString-insert&amp;extract.cpp">
+      <Filter>Source Files\insertion&amp;extraction</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-main-insert&amp;extract.cpp">
+      <Filter>Source Files\insertion&amp;extraction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h">
@@ -76,6 +85,9 @@
     </ClInclude>
     <ClInclude Include="MyString-global.h">
       <Filter>Source Files\global function</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString-insert&amp;extract.h">
+      <Filter>Source Files\insertion&amp;extraction</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

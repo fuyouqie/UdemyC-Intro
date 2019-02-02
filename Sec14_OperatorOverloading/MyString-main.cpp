@@ -12,4 +12,6 @@ int main()
 	empty.display();
 	alice.display();
 	alice_copy.display();
+
+	return 0;
 }
