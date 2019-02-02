@@ -4,7 +4,7 @@ using namespace std;
 
 double increase(double base, double rate = 0.03);
 
-int maine()
+int main()
 {
 	cout << increase(5);
 	return 0;

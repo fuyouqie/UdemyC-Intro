@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int mainb()
+int main()
 {
     int random_number {};
     size_t count {10};           // number of random numbers to generate

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int maink()
+int main()
 {
 	enum Direction{LEFT,RIGHT,UP,DOWN};
 	Direction d1{LEFT};

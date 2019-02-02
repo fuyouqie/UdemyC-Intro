@@ -1,4 +1,4 @@
-#include <iostream>;
+#include <iostream>
 
 using namespace std;
 
@@ -6,7 +6,7 @@ int main()
 {
 	const int PRICE_SMALL{25};
 	const int PRICE_LARGE{35};
-	const float TAX_RATE{0.06};
+	const float TAX_RATE{0.06f};
 	const int VALID_PERIOD{30};
 	
 	cout << "Hello, Welcome to Frank's Carpet Cleaning Service" << endl;

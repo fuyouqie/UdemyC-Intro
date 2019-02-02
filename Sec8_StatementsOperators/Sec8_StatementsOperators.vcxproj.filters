@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Sec8_Chal_USDCalc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sec8_Chal_USDCalc.cpp">
+    <ClCompile Include="general.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

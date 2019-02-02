@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int mainj()
+int main()
 {
 	//cout << "HAH" << endl;
 	//cout << "HAH\n";

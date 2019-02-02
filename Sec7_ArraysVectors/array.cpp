@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int mainh()
+int main()
 {
 	/*
 		creating an int array of size 5 (int num[5];)

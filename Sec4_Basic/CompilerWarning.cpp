@@ -1,6 +1,6 @@
 #include <iostream>
 
-int mainc()
+int main()
 {
 	//int num;
 	//std::cout << num << std::endl;

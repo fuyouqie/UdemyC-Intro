@@ -8,7 +8,7 @@ void swap(int a, int b);
 //passing array : pass the address(ref)
 //passing vector object, making a copy
 
-int mainj()
+int main()
 {
 	int a = 2, b = 4;
 	cout << a << " " << b << endl;

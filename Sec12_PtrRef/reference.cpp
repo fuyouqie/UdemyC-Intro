@@ -4,14 +4,13 @@
 	a reference cannot be changed to refer to another value
 */
 
-
 #include <iostream>
 #include <vector>
 #include <string>
 
 using namespace std;
 
-int mainq()
+int main()
 {
 	vector<string> names{"A","B","C"};
 

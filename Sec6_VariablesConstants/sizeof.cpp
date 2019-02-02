@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int maini()
+int main()
 {
 
     cout << "sizeof information" << endl;

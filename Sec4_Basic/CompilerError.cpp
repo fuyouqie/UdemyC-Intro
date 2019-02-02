@@ -1,6 +1,6 @@
 #include <iostream>
 
-int mainb()
+int main()
 {
 	//std::cout << "hellow" << std::end1;
 	return 0;

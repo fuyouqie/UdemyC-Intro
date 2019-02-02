@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int maina()
+int main()
 {
 	/*****************************
 		Declare and initialise a pointer

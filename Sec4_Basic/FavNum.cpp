@@ -1,6 +1,6 @@
 #include <iostream>
 
-int maina()
+int main()
 {
 	int num;
 	std::cout << "Enter your fav num:";

@@ -7,7 +7,7 @@ using namespace std;
 //global variable
 int age{5};
 
-int mainc()
+int main()
 {
 	//local variable
 	int age{10};

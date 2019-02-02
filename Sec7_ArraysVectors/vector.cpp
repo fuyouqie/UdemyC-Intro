@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int maini()
+int main()
 {
 	//ways to declare vectors
 	//declare without initialising

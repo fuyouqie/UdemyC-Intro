@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int maina()
+int main()
 {
     double num {};
 

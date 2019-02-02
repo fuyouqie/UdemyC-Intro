@@ -24,7 +24,7 @@
 
 using namespace std;
 
-int mainb()
+int main()
 {
 	/*************************
 		Integers

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int maini()
+int main()
 {
 	//casting
 	double num1 = 8 / 5;

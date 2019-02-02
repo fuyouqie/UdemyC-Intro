@@ -16,7 +16,7 @@ void mulTable()
 	}
 }
 
-int maint()
+int main()
 {
 	//for-each loop
 	int nums[]{2,3,4,5,6};
