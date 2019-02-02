@@ -31,6 +31,9 @@
     <Filter Include="Source Files\insertion&amp;extraction">
       <UniqueIdentifier>{fdca8f04-9368-44e6-9f40-ee6204bbaeed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sec14_Chal_member">
+      <UniqueIdentifier>{c1e3981b-7299-422b-bd67-8729acf75154}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyString-main.cpp">
@@ -69,6 +72,12 @@
     <ClCompile Include="MyString-main-insert&amp;extract.cpp">
       <Filter>Source Files\insertion&amp;extraction</Filter>
     </ClCompile>
+    <ClCompile Include="MyString-Sec14-Chal-mem.cpp">
+      <Filter>Source Files\Sec14_Chal_member</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString-main-Sec14-Chal-mem.cpp">
+      <Filter>Source Files\Sec14_Chal_member</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h">
@@ -88,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="MyString-insert&amp;extract.h">
       <Filter>Source Files\insertion&amp;extraction</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString-Sec14-Chal-mem.h">
+      <Filter>Source Files\Sec14_Chal_member</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

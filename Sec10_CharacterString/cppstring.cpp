@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int maine()
+int main()
 {
 	/********************************
 		Initialisation

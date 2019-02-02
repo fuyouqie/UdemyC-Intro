@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int mainj()
+int main()
 {
     
     char  str[] {"1234'5sddd'fdffg\n\t&^%23**~Frank Mary~     @!()-+=%^?<>;:"};
