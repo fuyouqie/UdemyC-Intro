@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\overriding/refining">
+      <UniqueIdentifier>{30868674-68ad-412c-b2a7-064d28d3452f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\complex">
+      <UniqueIdentifier>{9fbe94a7-68ae-475d-8305-c5540a0ffec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sec15_Chal">
+      <UniqueIdentifier>{79693eb0-94c1-49e5-b4cc-8c6ed050e600}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main-access modifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-constructor&amp;destructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-pass args.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-copy&amp;move&amp;assignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-overriding.cpp">
+      <Filter>Source Files\overriding/refining</Filter>
+    </ClCompile>
+    <ClCompile Include="Account-overriding.cpp">
+      <Filter>Source Files\overriding/refining</Filter>
+    </ClCompile>
+    <ClCompile Include="Savings_Account-overriding.cpp">
+      <Filter>Source Files\overriding/refining</Filter>
+    </ClCompile>
+    <ClCompile Include="Account-complex.cpp">
+      <Filter>Source Files\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="main-complex.cpp">
+      <Filter>Source Files\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="Savings_Account-complex.cpp">
+      <Filter>Source Files\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="Account_Util.cpp">
+      <Filter>Source Files\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="Account_Util-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+    <ClCompile Include="Account-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+    <ClCompile Include="main-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+    <ClCompile Include="Savings_Account-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+    <ClCompile Include="Checking_Account-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+    <ClCompile Include="Trust_Account-Sec15-Chal.cpp">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account-overriding.h">
+      <Filter>Source Files\overriding/refining</Filter>
+    </ClInclude>
+    <ClInclude Include="Savings_Account-overriding.h">
+      <Filter>Source Files\overriding/refining</Filter>
+    </ClInclude>
+    <ClInclude Include="Account-complex.h">
+      <Filter>Source Files\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="Savings_Account-complex.h">
+      <Filter>Source Files\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="Account_Util.h">
+      <Filter>Source Files\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="Account_Util-Sec15-Chal.h">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClInclude>
+    <ClInclude Include="Account-Sec15-Chal.h">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClInclude>
+    <ClInclude Include="Savings_Account-Sec15-Chal.h">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClInclude>
+    <ClInclude Include="Checking_Account-Sec15-Chal.h">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClInclude>
+    <ClInclude Include="Trust_Account-Sec15-Chal.h">
+      <Filter>Source Files\Sec15_Chal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

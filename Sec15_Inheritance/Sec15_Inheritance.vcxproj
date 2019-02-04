@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{48BDAF06-3B25-4AB4-9A4A-1A2170EB383E}</ProjectGuid>
-    <RootNamespace>Sec13OOP</RootNamespace>
+    <ProjectGuid>{0AEDA7A4-6CF3-4376-937F-78EF36477F89}</ProjectGuid>
+    <RootNamespace>Sec15Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -118,62 +118,67 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="classDeclaration.cpp">
+    <ClCompile Include="Account-complex.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main-cp.cpp">
+    <ClCompile Include="Account-overriding.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main-deep.cpp">
+    <ClCompile Include="Account-Sec15-Chal.cpp" />
+    <ClCompile Include="Account_Util-Sec15-Chal.cpp" />
+    <ClCompile Include="Account_Util.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main-move.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="main-shallow.cpp">
+    <ClCompile Include="Checking_Account-Sec15-Chal.cpp" />
+    <ClCompile Include="main-access modifier.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Movie.cpp">
+    <ClCompile Include="main-complex.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Movies.cpp">
+    <ClCompile Include="main-constructor&amp;destructor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main-copy&amp;move&amp;assignment.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Student-cp.cpp">
+    <ClCompile Include="main-overriding.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Student-deep.cpp">
+    <ClCompile Include="main-pass args.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Student-move.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Student-shallow.cpp">
+    <ClCompile Include="main-Sec15-Chal.cpp" />
+    <ClCompile Include="Savings_Account-complex.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Savings_Account-overriding.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Savings_Account-Sec15-Chal.cpp" />
+    <ClCompile Include="Trust_Account-Sec15-Chal.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Movie.h">
+    <ClInclude Include="Account-complex.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Movies.h">
+    <ClInclude Include="Account-overriding.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Student-cp.h">
+    <ClInclude Include="Account-Sec15-Chal.h" />
+    <ClInclude Include="Account_Util-Sec15-Chal.h" />
+    <ClInclude Include="Account_Util.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Student-deep.h">
+    <ClInclude Include="Checking_Account-Sec15-Chal.h" />
+    <ClInclude Include="Savings_Account-complex.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Student-move.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="Student-shallow.h">
+    <ClInclude Include="Savings_Account-overriding.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="Savings_Account-Sec15-Chal.h" />
+    <ClInclude Include="Trust_Account-Sec15-Chal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
