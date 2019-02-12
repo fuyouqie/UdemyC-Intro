@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sec19_Chals">
+      <UniqueIdentifier>{1ab0839a-2e83-478d-8ffd-f86fbd23ef1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stream_manipulators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sec19_Chal1.cpp">
+      <Filter>Source Files\Sec19_Chals</Filter>
+    </ClCompile>
+    <ClCompile Include="read_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sec19_Chal2.cpp">
+      <Filter>Source Files\Sec19_Chals</Filter>
+    </ClCompile>
+    <ClCompile Include="Sec19_Chal3.cpp">
+      <Filter>Source Files\Sec19_Chals</Filter>
+    </ClCompile>
+    <ClCompile Include="write.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sec19_Chal4.cpp">
+      <Filter>Source Files\Sec19_Chals</Filter>
+    </ClCompile>
+    <ClCompile Include="string_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text_1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="text_2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="text_3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="poem.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="romeoandjuliet.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="responses.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
